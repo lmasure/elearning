@@ -46,6 +46,17 @@ if (navToggle && navLinks) {
     });
 }
 
+// ---- Flip cards (séquence 1) ----
+document.querySelectorAll('.principle-card').forEach(card => {
+    card.addEventListener('click', () => card.classList.toggle('flipped'));
+    card.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            card.classList.toggle('flipped');
+        }
+    });
+});
+
 // ---- Année courante dans le footer ----
 const yearEl = document.getElementById('year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();
