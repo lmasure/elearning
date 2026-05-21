@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formation — Titre du cours</title>
+    <title>Vie Affective et Sexuelle — Le Consentement</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <!-- Barre de progression lecture -->
     <div class="progress-bar" id="progressBar"></div>
 
     <!-- Navigation -->
     <nav class="nav-top">
         <div class="nav-container">
-            <div class="nav-logo">Formation</div>
+            <div class="nav-logo">Le Consentement</div>
             <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
             <ul class="nav-links" id="navLinks">
-                <li><a href="#introduction">Introduction</a></li>
-                <li><a href="#contenu">Contenu</a></li>
-                <li><a href="#video">Vidéo</a></li>
-                <li><a href="#exercice">Exercice</a></li>
+                <li><a href="#introduction">Intro</a></li>
+                <li><a href="#consentement">§1 Consentement</a></li>
+                <li><a href="#pratiques">§2 Pratiques</a></li>
+                <li><a href="#loi">§3 La loi</a></li>
+                <li><a href="#temoin">§4 Témoin</a></li>
+                <li><a href="#ressources">§5 Ressources</a></li>
+                <li><a href="#quiz">Quiz</a></li>
             </ul>
         </div>
     </nav>
@@ -28,145 +30,490 @@
     <!-- Hero -->
     <header class="hero">
         <div class="hero-content">
-            <span class="hero-tag">Module 1</span>
-            <h1>Titre de la Formation</h1>
-            <p class="hero-subtitle">Sous-titre ou courte description de ce que l'apprenant va découvrir dans ce module.</p>
-            <a href="#introduction" class="btn-primary">Commencer →</a>
+            <span class="hero-tag">E-learning · Autonomie complète · 1h30</span>
+            <h1>Vie Affective et Sexuelle<br><em>Le Consentement</em></h1>
+            <p class="hero-subtitle">Formation destinée aux stagiaires COS CRPF, RP et ADC — niveaux 3 à 5</p>
+            <a href="#introduction" class="btn-primary">Commencer le module →</a>
         </div>
     </header>
 
-    <!-- ===================== SECTION TEXTE ===================== -->
+    <!-- ======================================================
+         SÉQUENCE 0 — Introduction
+         ====================================================== -->
     <section id="introduction" class="section section-light">
         <div class="container">
-            <span class="section-label">Introduction</span>
+            <div class="seq-header">
+                <span class="seq-badge">Introduction</span>
+                <span class="seq-duration">⏱ 5 min</span>
+            </div>
             <h2>Bienvenue dans ce module</h2>
+
             <div class="content-text">
-                <p>
-                    Remplacez ce texte par votre contenu d'introduction. Expliquez ici le contexte,
-                    les objectifs pédagogiques et ce que l'apprenant sera capable de faire à la fin du module.
-                </p>
-                <p>
-                    Vous pouvez structurer ce paragraphe en plusieurs parties. Utilisez des phrases claires et
-                    courtes pour faciliter la lecture en ligne.
-                </p>
+                <!--
+                    PERSONNALISER — Slide 1
+                    Remplacez les balises <p>[…]</p> par votre texte d'accueil :
+                    pourquoi ce sujet, comment naviguer, ce qu'on va apprendre.
+                -->
+                <p>[Texte d'accueil — pourquoi ce module, quels enjeux]</p>
+                <p>[Comment naviguer dans le parcours — deuxième paragraphe si nécessaire]</p>
             </div>
 
-            <!-- Bloc d'info / callout -->
-            <div class="callout callout-info">
-                <strong>Objectifs du module</strong>
+            <div class="callout callout-consigne">
+                <span class="callout-icon">📋</span>
+                <div>
+                    <strong>Consigne</strong>
+                    <p>Ce module dure environ 1h30. Avancez à votre rythme.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================================
+         SÉQUENCE 1 — C'est quoi le consentement ?
+         ====================================================== -->
+    <section id="consentement" class="section section-white">
+        <div class="container">
+            <div class="seq-header">
+                <span class="seq-badge seq-badge--primary">Séquence 1</span>
+                <span class="seq-duration">⏱ 20 min</span>
+            </div>
+            <h2>C'est quoi le consentement ?</h2>
+
+            <div class="content-text">
+                <!--
+                    PERSONNALISER — Slides 2, 3, 4
+                    Définition du consentement : librement donné, compris, sans contrainte.
+                -->
+                <p>[Définition du consentement : librement donné, compris, sans contrainte]</p>
+                <p>[Développement — deuxième paragraphe]</p>
+            </div>
+
+            <!-- Les 4 principes clés -->
+            <div class="principles-grid">
+                <!--
+                    PERSONNALISER — Slides 3-4
+                    Les 4 principes : obligatoire, non définitif, droit de dire non, liberté d'aimer.
+                    Remplacez les [crochets] par vos titres et textes.
+                -->
+                <div class="principle-card">
+                    <span class="principle-number">1</span>
+                    <h3>[Principe 1 — ex : Obligatoire]</h3>
+                    <p>[Description du 1er principe]</p>
+                </div>
+                <div class="principle-card">
+                    <span class="principle-number">2</span>
+                    <h3>[Principe 2 — ex : Non définitif]</h3>
+                    <p>[Description du 2e principe]</p>
+                </div>
+                <div class="principle-card">
+                    <span class="principle-number">3</span>
+                    <h3>[Principe 3 — ex : Droit de dire non]</h3>
+                    <p>[Description du 3e principe]</p>
+                </div>
+                <div class="principle-card">
+                    <span class="principle-number">4</span>
+                    <h3>[Principe 4 — ex : Liberté d'aimer]</h3>
+                    <p>[Description du 4e principe]</p>
+                </div>
+            </div>
+
+            <!-- Vidéo YouTube #1 -->
+            <div class="media-block">
+                <h3 class="media-title">Vidéo — 2 min</h3>
+                <!--
+                    PERSONNALISER — Vidéo YouTube n°1
+                    Remplacez VOTRE_ID_VIDEO_1 par l'identifiant YouTube (11 caractères après "watch?v=").
+                    Exemple : https://www.youtube.com/watch?v=dQw4w9WgXcQ → identifiant = dQw4w9WgXcQ
+                -->
+                <div class="video-wrapper">
+                    <iframe
+                        src="https://www.youtube.com/embed/VOTRE_ID_VIDEO_1"
+                        title="Vidéo sur le consentement"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- H5P #1 -->
+            <div class="activity-block">
+                <div class="activity-header">
+                    <span class="activity-badge">Activité interactive</span>
+                    <h3>Vrai ou Faux sur le consentement</h3>
+                    <p class="activity-consigne">Testez ce que vous venez d'apprendre. — 5 questions, feedback immédiat.</p>
+                </div>
+                <!--
+                    PERSONNALISER — H5P #1
+                    H5P.org  → src="https://h5p.org/h5p/embed/VOTRE_ID"
+                    Lumi     → src="https://app.lumi.education/api/v1/run/VOTRE_ID/embed"
+                    Ajustez height selon la taille de votre contenu H5P.
+                -->
+                <div class="h5p-wrapper">
+                    <iframe
+                        src="https://h5p.org/h5p/embed/VOTRE_ID_H5P_1"
+                        width="100%"
+                        height="500"
+                        frameborder="0"
+                        allowfullscreen="allowfullscreen"
+                        allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"
+                        title="H5P #1 — Vrai ou Faux">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================================
+         SÉQUENCE 2 — Les bonnes pratiques
+         ====================================================== -->
+    <section id="pratiques" class="section section-light">
+        <div class="container">
+            <div class="seq-header">
+                <span class="seq-badge seq-badge--primary">Séquence 2</span>
+                <span class="seq-duration">⏱ 15 min</span>
+            </div>
+            <h2>Les bonnes pratiques</h2>
+
+            <div class="content-text">
+                <!--
+                    PERSONNALISER — Slides 5, 6
+                    Introduction aux bonnes pratiques (1-2 phrases d'accroche).
+                -->
+                <p>[Introduction aux 5 bonnes pratiques à adopter dans une relation]</p>
+            </div>
+
+            <!-- Les 5 bonnes pratiques -->
+            <!--
+                PERSONNALISER — Slides 5, 6
+                Remplissez chaque <li> avec le titre et l'explication de chaque bonne pratique :
+                - Vérifier le consentement
+                - Possibilité de dire oui puis non
+                - En cas de doute, on pose la question
+                - Le silence ≠ consentement
+                - [5e pratique]
+            -->
+            <ol class="practices-list">
+                <li>
+                    <strong>[Bonne pratique 1 — ex : Vérifier le consentement]</strong>
+                    <p>[Explication]</p>
+                </li>
+                <li>
+                    <strong>[Bonne pratique 2 — ex : On peut dire oui, puis non]</strong>
+                    <p>[Explication]</p>
+                </li>
+                <li>
+                    <strong>[Bonne pratique 3 — ex : En cas de doute, on pose la question]</strong>
+                    <p>[Explication]</p>
+                </li>
+                <li>
+                    <strong>[Bonne pratique 4 — ex : Le silence n'est pas un consentement]</strong>
+                    <p>[Explication]</p>
+                </li>
+                <li>
+                    <strong>[Bonne pratique 5]</strong>
+                    <p>[Explication]</p>
+                </li>
+            </ol>
+
+            <!-- Encadré "À retenir" -->
+            <!--
+                PERSONNALISER — résumé visuel des points clés (slides 5-6)
+            -->
+            <div class="callout callout-retenir">
+                <strong>À retenir</strong>
                 <ul>
-                    <li>Comprendre le concept X</li>
-                    <li>Appliquer la méthode Y dans un contexte réel</li>
-                    <li>Évaluer sa compréhension via un exercice interactif</li>
+                    <li>[Point clé 1]</li>
+                    <li>[Point clé 2]</li>
+                    <li>[Point clé 3]</li>
                 </ul>
             </div>
-        </div>
-    </section>
 
-    <!-- ===================== SECTION TEXTE + IMAGE ===================== -->
-    <section id="contenu" class="section section-white">
-        <div class="container">
-            <span class="section-label">Contenu</span>
-            <h2>Titre de la section de contenu</h2>
-
-            <!-- Grille texte / image -->
-            <div class="content-grid">
-                <div class="content-text">
-                    <p>
-                        Développez ici votre contenu pédagogique principal. Ce bloc de texte s'affiche
-                        côte à côte avec l'image sur les grands écrans, et empilé sur mobile.
-                    </p>
-                    <p>
-                        Ajoutez autant de paragraphes que nécessaire. Le texte s'adaptera
-                        automatiquement à la hauteur de l'image adjacente.
-                    </p>
+            <!-- H5P #2 -->
+            <div class="activity-block">
+                <div class="activity-header">
+                    <span class="activity-badge">Activité interactive</span>
+                    <h3>Dans cette situation, y a-t-il consentement ?</h3>
+                    <p class="activity-consigne">Pour chaque situation, choisissez la bonne réponse. — 3 scénarios illustrés, feedback détaillé.</p>
                 </div>
-                <figure class="content-image">
-                    <!-- Remplacez src par votre image : assets/images/mon-image.png -->
-                    <img src="https://placehold.co/600x400/2563eb/white?text=Votre+image" alt="Description de l'image">
-                    <figcaption>Légende de l'image — remplacez par votre texte</figcaption>
-                </figure>
-            </div>
-
-            <!-- Sous-section texte seul -->
-            <div class="content-text" style="margin-top: 2.5rem;">
-                <h3>Sous-titre de section</h3>
-                <p>
-                    Vous pouvez enchaîner des sous-sections sous la grille. Utilisez les balises
-                    <code>&lt;h3&gt;</code> pour les sous-titres et <code>&lt;p&gt;</code> pour les paragraphes.
-                </p>
+                <!--
+                    PERSONNALISER — H5P #2
+                -->
+                <div class="h5p-wrapper">
+                    <iframe
+                        src="https://h5p.org/h5p/embed/VOTRE_ID_H5P_2"
+                        width="100%"
+                        height="500"
+                        frameborder="0"
+                        allowfullscreen="allowfullscreen"
+                        allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"
+                        title="H5P #2 — Scénarios consentement">
+                    </iframe>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- ===================== SECTION VIDÉO YOUTUBE ===================== -->
-    <section id="video" class="section section-dark">
+    <!-- ======================================================
+         SÉQUENCE 3 — Les violences sexuelles et la loi
+         ====================================================== -->
+    <section id="loi" class="section section-dark">
         <div class="container">
-            <span class="section-label">Vidéo</span>
-            <h2>Titre de la vidéo</h2>
-            <p class="section-intro">
-                Remplacez l'URL dans l'attribut <code>src</code> de l'iframe ci-dessous par votre lien YouTube embed.
-            </p>
+            <div class="seq-header">
+                <span class="seq-badge seq-badge--light">Séquence 3</span>
+                <span class="seq-duration seq-duration--light">⏱ 20 min</span>
+            </div>
+            <h2>Les violences sexuelles et la loi</h2>
 
-            <!--
-                Lien YouTube embed : https://www.youtube.com/embed/VOTRE_ID_VIDEO
-                Remplacez "dQw4w9WgXcQ" par l'identifiant de votre vidéo
-            -->
-            <div class="video-wrapper">
-                <iframe
-                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                    title="Titre de la vidéo"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
+            <div class="content-text content-text--light">
+                <!--
+                    PERSONNALISER — Slides 7, 8, 9
+                    - Rappel de la loi (âge légal : 15 ans / 18 ans inceste)
+                    - Définition des violences sexuelles
+                    - Formes : agression, viol, harcèlement, exhibitionnisme
+                    - Loi novembre 2025 sur le silence
+                -->
+                <p>[Définition des violences sexuelles et présentation du cadre légal]</p>
+                <p>[Les différentes formes : agression, viol, harcèlement, exhibitionnisme — développez ici]</p>
             </div>
 
-            <p class="video-caption">
-                Durée : XX min — Source : [auteur / organisation]
-            </p>
+            <!-- Encadré "Ce que dit la loi" -->
+            <!--
+                PERSONNALISER — points légaux à mettre en évidence (slides 7-9)
+            -->
+            <div class="callout callout-loi">
+                <strong>⚖️ Ce que dit la loi</strong>
+                <ul>
+                    <li>Âge légal de consentement : <strong>15 ans</strong> (porté à <strong>18 ans</strong> dans le cas de l'inceste)</li>
+                    <li>[Loi novembre 2025 sur le silence — précisez le contenu ici]</li>
+                    <li>[Autre disposition légale importante]</li>
+                </ul>
+            </div>
+
+            <!-- Vidéo YouTube #2 -->
+            <div class="media-block media-block--dark">
+                <h3 class="media-title media-title--light">Vidéo — 3 min</h3>
+                <!--
+                    PERSONNALISER — Vidéo YouTube n°2
+                    Remplacez VOTRE_ID_VIDEO_2 par l'identifiant YouTube.
+                -->
+                <div class="video-wrapper">
+                    <iframe
+                        src="https://www.youtube.com/embed/VOTRE_ID_VIDEO_2"
+                        title="Vidéo sur les violences sexuelles et la loi"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- ===================== SECTION H5P ===================== -->
-    <section id="exercice" class="section section-white">
+    <!-- ======================================================
+         SÉQUENCE 4 — Agir en tant que témoin
+         ====================================================== -->
+    <section id="temoin" class="section section-white">
         <div class="container">
-            <span class="section-label">Exercice interactif</span>
-            <h2>Testez vos connaissances</h2>
+            <div class="seq-header">
+                <span class="seq-badge seq-badge--primary">Séquence 4</span>
+                <span class="seq-duration">⏱ 15 min</span>
+            </div>
+            <h2>Agir en tant que témoin</h2>
+
+            <div class="content-text">
+                <!--
+                    PERSONNALISER — Slides 10, 11
+                    Rôle du témoin : intervenir si possible, écouter la victime (comment elle se sent,
+                    ce dont elle a besoin), ne pas minimiser, se positionner contre les blagues sexistes.
+                -->
+                <p>[Introduction sur l'importance du rôle de témoin]</p>
+                <p>[Développement — deuxième paragraphe si nécessaire]</p>
+            </div>
+
+            <!-- Liste visuelle "Comment réagir" -->
+            <!--
+                PERSONNALISER — Slides 10, 11
+                Ajoutez / modifiez les items ci-dessous.
+                howto-icon--green = bonne pratique (✓)
+                howto-icon--red   = erreur à éviter (✗)
+            -->
+            <div class="howto-block">
+                <h3>Comment réagir ?</h3>
+                <ul class="howto-list">
+                    <li>
+                        <span class="howto-icon howto-icon--green">✓</span>
+                        <div>
+                            <strong>[Action à faire 1 — ex : Intervenir si la situation le permet]</strong>
+                            <p>[Explication]</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="howto-icon howto-icon--green">✓</span>
+                        <div>
+                            <strong>[Action à faire 2 — ex : Écouter la victime]</strong>
+                            <p>[Comment elle se sent, ce dont elle a besoin]</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="howto-icon howto-icon--green">✓</span>
+                        <div>
+                            <strong>[Action à faire 3 — ex : Se positionner contre les blagues sexistes]</strong>
+                            <p>[Explication]</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="howto-icon howto-icon--red">✗</span>
+                        <div>
+                            <strong>[À ne pas faire — ex : Minimiser ou relativiser]</strong>
+                            <p>[Pourquoi c'est nocif]</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- H5P #3 -->
+            <div class="activity-block">
+                <div class="activity-header">
+                    <span class="activity-badge">Activité interactive</span>
+                    <h3>Que feriez-vous ?</h3>
+                    <p class="activity-consigne">Choisissez la réaction la plus adaptée. — 3 mises en situation : bon / mauvais comportement de témoin, feedback explicatif.</p>
+                </div>
+                <!--
+                    PERSONNALISER — H5P #3
+                -->
+                <div class="h5p-wrapper">
+                    <iframe
+                        src="https://h5p.org/h5p/embed/VOTRE_ID_H5P_3"
+                        width="100%"
+                        height="500"
+                        frameborder="0"
+                        allowfullscreen="allowfullscreen"
+                        allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"
+                        title="H5P #3 — Rôle du témoin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================================
+         SÉQUENCE 5 — Ressources et numéros utiles
+         ====================================================== -->
+    <section id="ressources" class="section section-light">
+        <div class="container">
+            <div class="seq-header">
+                <span class="seq-badge seq-badge--primary">Séquence 5</span>
+                <span class="seq-duration">⏱ 10 min</span>
+            </div>
+            <h2>Ressources et numéros utiles</h2>
             <p class="section-intro">
-                Complétez l'exercice ci-dessous avant de passer à la suite.
+                Ces ressources sont à explorer librement et à garder en référence.
+                Pas d'activité obligatoire dans cette section.
             </p>
 
+            <div class="resource-grid">
+
+                <div class="resource-card resource-card--urgence">
+                    <div class="resource-number">3919</div>
+                    <div class="resource-name">Violences Femmes Info</div>
+                    <div class="resource-desc">Écoute, information et orientation pour les femmes victimes de violences. Disponible 24h/24, 7j/7.</div>
+                    <span class="resource-tag">Gratuit · Anonyme</span>
+                </div>
+
+                <div class="resource-card resource-card--urgence">
+                    <div class="resource-number">119</div>
+                    <div class="resource-name">Enfance en Danger</div>
+                    <div class="resource-desc">Signalement des enfants en danger. Disponible 24h/24, 7j/7.</div>
+                    <span class="resource-tag">Gratuit · 24h/24</span>
+                </div>
+
+                <div class="resource-card resource-card--urgence">
+                    <div class="resource-number">17 / 114</div>
+                    <div class="resource-name">Police &amp; Gendarmerie</div>
+                    <div class="resource-desc">En cas de danger immédiat. Le 114 est dédié aux personnes sourdes ou malentendantes.</div>
+                    <span class="resource-tag">Urgence</span>
+                </div>
+
+                <div class="resource-card resource-card--urgence">
+                    <div class="resource-number">3018</div>
+                    <div class="resource-name">Cyberviolences</div>
+                    <div class="resource-desc">Numéro national contre le cyberharcèlement. Pour les jeunes et les adultes.</div>
+                    <span class="resource-tag">Gratuit</span>
+                </div>
+
+                <div class="resource-card resource-card--support">
+                    <div class="resource-number">0800 08 11 11</div>
+                    <div class="resource-name">Planning Familial</div>
+                    <div class="resource-desc">Information sur la contraception, la sexualité et les droits. Numéro vert national.</div>
+                    <a href="https://www.planning-familial.org" target="_blank" rel="noopener noreferrer" class="resource-link">planning-familial.org ↗</a>
+                    <span class="resource-tag">Gratuit</span>
+                </div>
+
+                <div class="resource-card resource-card--support">
+                    <div class="resource-number">0800 05 95 95</div>
+                    <div class="resource-name">CFCV</div>
+                    <div class="resource-desc">Centre Français contre les Violences Conjugales — accompagnement des victimes.</div>
+                    <span class="resource-tag">Gratuit</span>
+                </div>
+
+                <div class="resource-card resource-card--info">
+                    <!--
+                        PERSONNALISER — Slides 12-14
+                        Centres d'addictovigilance : ajoutez ici le ou les centres locaux / régionaux
+                        pertinents pour votre public, avec coordonnées et lien si disponible.
+                    -->
+                    <div class="resource-name">Centres d'addictovigilance</div>
+                    <div class="resource-desc">[Ajoutez ici le(s) centre(s) d'addictovigilance pertinent(s) pour votre public : nom, numéro, adresse, lien.]</div>
+                    <span class="resource-tag">À compléter</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================================
+         SÉQUENCE 6 — Quiz final
+         ====================================================== -->
+    <section id="quiz" class="section section-white">
+        <div class="container">
+            <div class="seq-header">
+                <span class="seq-badge seq-badge--quiz">Quiz final</span>
+                <span class="seq-duration">⏱ 5 min</span>
+            </div>
+            <h2>Validez vos acquis</h2>
+
+            <div class="callout callout-consigne">
+                <span class="callout-icon">🎯</span>
+                <div>
+                    <strong>Consigne</strong>
+                    <p>Ce quiz valide votre complétion du module. <strong>Un score de 7/10 minimum est requis.</strong> Votre score s'affiche à la fin — il couvre les 4 thèmes du parcours.</p>
+                </div>
+            </div>
+
             <!--
-                H5P.org   → src="https://h5p.org/h5p/embed/VOTRE_ID"
-                Lumi      → src="https://app.lumi.education/api/v1/run/VOTRE_ID/embed"
-                Ajustez la hauteur (height) selon le type de contenu H5P.
+                PERSONNALISER — H5P #4
+                Quiz final : 10 questions couvrant les 4 thèmes, score et feedback global.
+                Ajustez height en fonction de la longueur de votre quiz.
             -->
-            <div class="h5p-wrapper">
+            <div class="h5p-wrapper" style="margin-top: 1.75rem;">
                 <iframe
-                    src="https://h5p.org/h5p/embed/712"
+                    src="https://h5p.org/h5p/embed/VOTRE_ID_H5P_4"
                     width="100%"
-                    height="500"
+                    height="620"
                     frameborder="0"
                     allowfullscreen="allowfullscreen"
                     allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"
-                    title="Exercice H5P">
+                    title="Quiz final — 10 questions">
                 </iframe>
             </div>
-
-            <!-- Ajouter d'autres exercices H5P en dupliquant le bloc .h5p-wrapper -->
-            <!--
-            <div class="h5p-wrapper" style="margin-top: 2rem;">
-                <iframe src="..." ...></iframe>
-            </div>
-            -->
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container footer-inner">
-            <p class="footer-text">Formation — &copy; <span id="year"></span></p>
+            <p class="footer-text">Vie Affective et Sexuelle — Le Consentement &nbsp;·&nbsp; &copy; <span id="year"></span></p>
             <nav class="footer-nav">
                 <a href="#introduction">Haut de page ↑</a>
             </nav>
