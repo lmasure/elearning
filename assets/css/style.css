@@ -303,6 +303,17 @@ h3 {
 
 .content-text--light p { color: #cbd5e1; }
 
+.intro-goals {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+    padding-left: 0.25rem;
+    font-size: 0.95rem;
+    color: var(--text);
+}
+
 code {
     font-family: 'Menlo', 'Consolas', monospace;
     background: #f0f4ff;
