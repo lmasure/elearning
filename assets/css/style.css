@@ -576,6 +576,23 @@ code {
     margin: 0;
 }
 
+.howto-tip {
+    margin-top: 0.5rem !important;
+    font-size: 0.82rem !important;
+    font-style: italic;
+    background: #f8fafc;
+    border-left: 3px solid #cbd5e1;
+    padding: 0.4rem 0.75rem;
+    border-radius: 0 6px 6px 0;
+}
+
+.temoin-note {
+    font-size: 0.875rem;
+    font-style: italic;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+}
+
 /* ============================================================
    CALLOUTS
    ============================================================ */
