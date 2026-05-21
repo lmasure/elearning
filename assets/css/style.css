@@ -418,6 +418,95 @@ code {
 }
 
 /* ============================================================
+   FORMES DE VIOLENCES — Séquence 3
+   ============================================================ */
+.dark-note {
+    font-size: 0.875rem;
+    color: #94a3b8;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+.violence-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.violence-item {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: var(--radius);
+    padding: 1.1rem 1.25rem;
+}
+
+.violence-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.violence-header strong {
+    font-size: 0.95rem;
+    color: white;
+}
+
+.violence-item p {
+    font-size: 0.875rem;
+    color: #cbd5e1;
+    margin-bottom: 0.5rem;
+}
+
+.violence-item p:last-child { margin-bottom: 0; }
+
+.violence-law {
+    font-size: 0.82rem !important;
+    color: #94a3b8 !important;
+    background: rgba(0,0,0,0.2);
+    border-left: 3px solid rgba(255,255,255,0.15);
+    padding: 0.4rem 0.75rem;
+    border-radius: 0 6px 6px 0;
+    margin-top: 0.5rem;
+}
+
+.violence-item--red   { border-left: 4px solid #f87171; }
+.violence-item--orange{ border-left: 4px solid #fb923c; }
+.violence-item--yellow{ border-left: 4px solid #fbbf24; }
+.violence-item--green { border-left: 4px solid #4ade80; }
+
+/* À retenir sur fond sombre */
+.callout-retenir-dark {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-left: 4px solid #fbbf24;
+    border-radius: 0 var(--radius) var(--radius) 0;
+    padding: 1.1rem 1.35rem;
+    margin-top: 2rem;
+}
+
+.callout-retenir-dark strong {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #fcd34d;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.6rem;
+}
+
+.callout-retenir-dark ul {
+    padding-left: 1.2rem;
+    font-size: 0.9rem;
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+
+.callout-retenir-dark li { margin-bottom: 0.2rem; }
+
+/* ============================================================
    COMMENT RÉAGIR — Séquence 4
    ============================================================ */
 .howto-block {
