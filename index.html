@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formation — Titre du cours</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Barre de progression lecture -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Navigation -->
+    <nav class="nav-top">
+        <div class="nav-container">
+            <div class="nav-logo">Formation</div>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#contenu">Contenu</a></li>
+                <li><a href="#video">Vidéo</a></li>
+                <li><a href="#exercice">Exercice</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="hero-content">
+            <span class="hero-tag">Module 1</span>
+            <h1>Titre de la Formation</h1>
+            <p class="hero-subtitle">Sous-titre ou courte description de ce que l'apprenant va découvrir dans ce module.</p>
+            <a href="#introduction" class="btn-primary">Commencer →</a>
+        </div>
+    </header>
+
+    <!-- ===================== SECTION TEXTE ===================== -->
+    <section id="introduction" class="section section-light">
+        <div class="container">
+            <span class="section-label">Introduction</span>
+            <h2>Bienvenue dans ce module</h2>
+            <div class="content-text">
+                <p>
+                    Remplacez ce texte par votre contenu d'introduction. Expliquez ici le contexte,
+                    les objectifs pédagogiques et ce que l'apprenant sera capable de faire à la fin du module.
+                </p>
+                <p>
+                    Vous pouvez structurer ce paragraphe en plusieurs parties. Utilisez des phrases claires et
+                    courtes pour faciliter la lecture en ligne.
+                </p>
+            </div>
+
+            <!-- Bloc d'info / callout -->
+            <div class="callout callout-info">
+                <strong>Objectifs du module</strong>
+                <ul>
+                    <li>Comprendre le concept X</li>
+                    <li>Appliquer la méthode Y dans un contexte réel</li>
+                    <li>Évaluer sa compréhension via un exercice interactif</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SECTION TEXTE + IMAGE ===================== -->
+    <section id="contenu" class="section section-white">
+        <div class="container">
+            <span class="section-label">Contenu</span>
+            <h2>Titre de la section de contenu</h2>
+
+            <!-- Grille texte / image -->
+            <div class="content-grid">
+                <div class="content-text">
+                    <p>
+                        Développez ici votre contenu pédagogique principal. Ce bloc de texte s'affiche
+                        côte à côte avec l'image sur les grands écrans, et empilé sur mobile.
+                    </p>
+                    <p>
+                        Ajoutez autant de paragraphes que nécessaire. Le texte s'adaptera
+                        automatiquement à la hauteur de l'image adjacente.
+                    </p>
+                </div>
+                <figure class="content-image">
+                    <!-- Remplacez src par votre image : assets/images/mon-image.png -->
+                    <img src="https://placehold.co/600x400/2563eb/white?text=Votre+image" alt="Description de l'image">
+                    <figcaption>Légende de l'image — remplacez par votre texte</figcaption>
+                </figure>
+            </div>
+
+            <!-- Sous-section texte seul -->
+            <div class="content-text" style="margin-top: 2.5rem;">
+                <h3>Sous-titre de section</h3>
+                <p>
+                    Vous pouvez enchaîner des sous-sections sous la grille. Utilisez les balises
+                    <code>&lt;h3&gt;</code> pour les sous-titres et <code>&lt;p&gt;</code> pour les paragraphes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SECTION VIDÉO YOUTUBE ===================== -->
+    <section id="video" class="section section-dark">
+        <div class="container">
+            <span class="section-label">Vidéo</span>
+            <h2>Titre de la vidéo</h2>
+            <p class="section-intro">
+                Remplacez l'URL dans l'attribut <code>src</code> de l'iframe ci-dessous par votre lien YouTube embed.
+            </p>
+
+            <!--
+                Lien YouTube embed : https://www.youtube.com/embed/VOTRE_ID_VIDEO
+                Remplacez "dQw4w9WgXcQ" par l'identifiant de votre vidéo
+            -->
+            <div class="video-wrapper">
+                <iframe
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    title="Titre de la vidéo"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <p class="video-caption">
+                Durée : XX min — Source : [auteur / organisation]
+            </p>
+        </div>
+    </section>
+
+    <!-- ===================== SECTION H5P ===================== -->
+    <section id="exercice" class="section section-white">
+        <div class="container">
+            <span class="section-label">Exercice interactif</span>
+            <h2>Testez vos connaissances</h2>
+            <p class="section-intro">
+                Complétez l'exercice ci-dessous avant de passer à la suite.
+            </p>
+
+            <!--
+                H5P.org   → src="https://h5p.org/h5p/embed/VOTRE_ID"
+                Lumi      → src="https://app.lumi.education/api/v1/run/VOTRE_ID/embed"
+                Ajustez la hauteur (height) selon le type de contenu H5P.
+            -->
+            <div class="h5p-wrapper">
+                <iframe
+                    src="https://h5p.org/h5p/embed/712"
+                    width="100%"
+                    height="500"
+                    frameborder="0"
+                    allowfullscreen="allowfullscreen"
+                    allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"
+                    title="Exercice H5P">
+                </iframe>
+            </div>
+
+            <!-- Ajouter d'autres exercices H5P en dupliquant le bloc .h5p-wrapper -->
+            <!--
+            <div class="h5p-wrapper" style="margin-top: 2rem;">
+                <iframe src="..." ...></iframe>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p class="footer-text">Formation — &copy; <span id="year"></span></p>
+            <nav class="footer-nav">
+                <a href="#introduction">Haut de page ↑</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
