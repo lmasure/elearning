@@ -1,4 +1,4 @@
-/* ============================================================
+﻿/* ============================================================
    E-LEARNING — Le Consentement — style.css
    ============================================================ */
 
@@ -296,7 +296,7 @@ h3 {
 .content-text p {
     color: var(--text);
     margin-bottom: 1rem;
-    max-width: 70ch;
+    max-width: 80ch;
 }
 
 .content-text p:last-child { margin-bottom: 0; }
@@ -421,7 +421,7 @@ code {
 }
 
 .card-question {
-    font-size: 0.88rem;
+    font-size: 0.95rem;
     color: #3b5998;
     font-style: italic;
     line-height: 1.5;
@@ -555,7 +555,7 @@ code {
 .violence-item p:last-child { margin-bottom: 0; }
 
 .violence-law {
-    font-size: 0.82rem !important;
+    font-size: 0.875rem;
     color: #94a3b8 !important;
     background: rgba(0,0,0,0.2);
     border-left: 3px solid rgba(255,255,255,0.15);
@@ -670,7 +670,7 @@ code {
 
 .howto-tip {
     margin-top: 0.5rem !important;
-    font-size: 0.82rem !important;
+    font-size: 0.875rem;
     font-style: italic;
     background: #f8fafc;
     border-left: 3px solid #cbd5e1;
@@ -918,7 +918,7 @@ code {
 }
 
 .resource-desc {
-    font-size: 0.82rem;
+    font-size: 0.875rem;
     color: var(--text-muted);
     line-height: 1.5;
     flex-grow: 1;
