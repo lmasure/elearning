@@ -408,6 +408,15 @@ code {
     margin: 0;
 }
 
+.practices-example {
+    margin-top: 0.5rem !important;
+    background: #f8fafc;
+    border-left: 3px solid #cbd5e1;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0 6px 6px 0;
+    font-style: italic;
+}
+
 /* ============================================================
    COMMENT RÉAGIR — Séquence 4
    ============================================================ */
